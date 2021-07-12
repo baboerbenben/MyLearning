@@ -1,0 +1,23 @@
+1. 安装git后配置个人的用户名称和电子邮件地址：
+
+$ git config --global user.name "lmx"
+$ git config --global user.email 18363999545@163.com
+
+2. 想要从GitHub clone 需要ssh公钥，具体配置过程如下：
+    2.1 ssh-keygen -t rsa -C "18363999545@163.com"
+    2.2 一直回车，直至出现如下类似图形
+        The key's randomart image is:
+        +---[RSA 3072]----+
+        |..o=+o.          |
+        |o==oo. .         |
+        |+Bo.+ E .        |
+        |o=++ + . o       |
+        |+ o.o.  S * = .  |
+        |  .oo .  o B =   |
+        |  .+ .    + .    |
+        | ..o.      .     |
+        | .o.+.           |
+        +----[SHA256]-----+
+    2.3  cat C:\\Users\\lmx\\.ssh\\id_rsa.pub
+    2.4 在github新建ssh key并复制密钥
+
