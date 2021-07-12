@@ -1,0 +1,3 @@
+1. Docker安装对windows系统版本有要求，必要时需升级系统，否则会报如下错误：
+    Docker Desktop requires Windows 10 Pro/Enterprise (15063+)
+2.
